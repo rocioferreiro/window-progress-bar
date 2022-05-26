@@ -1,13 +1,22 @@
 # Window Progress Bar
-Color coded Progress Bar.
+Color coded Progress Bar for React.
 
 ![image of bar](https://i.imgur.com/iipIjpq.png)
 
-### Install
+## Table of contents
+
+- [Installation](#install)
+- [Usage](#usage)
+- [Options](#options)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [License](#license)
+
+## Install
 
 `npm install color-coded-progress-bar`
 
-### Usage
+## Usage
 
 `import { WindowProgressBar } from 'color-coded-progress-bar';`
 
@@ -15,7 +24,7 @@ Color coded Progress Bar.
         tooltip 
         value={7} />`
 
-### Options
+## Options
 
 | Attribute | Type                       | Purpose                                                            | Default                                                           |
 |-----------|----------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -27,3 +36,14 @@ Color coded Progress Bar.
 | sectors   | {min:number, max:number}[] | Defines the sections.                                              | [{min:0, max:2}, {min:2, max:5}, {min:5, max:8}, {min:8, max:10}] |
 | height    | Number                     | Defines the height of the bar                                      | 20                                                                |
 
+## Contributing
+
+Please read through our [contributing guidelines](https://github.com/rocioferreiro/window-progress-bar/blob/main/Contributing.md). Included are directions for opening issues, coding standards, and notes on development.
+
+## Versioning
+
+Maintained under the [Semantic Versioning guidelines](https://semver.org/).
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT) © Rocio Ferreiro

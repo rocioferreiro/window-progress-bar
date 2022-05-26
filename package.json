@@ -1,6 +1,6 @@
 {
   "name": "color-coded-progress-bar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/rocioferreiro/window-progress-bar.git"
   },
-  "keywords": [],
+  "keywords": ["react", "progress bar", "color bar", "section marker"],
   "author": "Rocio Ferreiro Rico",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rocioferreiro/window-progress-bar/issues"
   },
