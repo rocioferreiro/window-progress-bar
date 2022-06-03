@@ -37,7 +37,7 @@ export function WindowProgressBar(props: Props) {
         {labels_ && <p>{sectors_[0].min}</p>}
         <Grid container style={{ flexWrap: 'nowrap'}}>
             {sectors_.map((s,index) =>
-                <Grid item key={index} xs={max_} md={8} lg={s.max - s.min} style={{backgroundColor: colors_[index], height: height_, textAlign: align === 'center'? 'center': align === 'left'? 'left' : 'right'}}>
+                <Grid item key={index} xs={s.max - s.min} md={s.max - s.min} lg={s.max - s.min} style={{backgroundColor: colors_[index], height: height_, textAlign: align === 'center'? 'center': align === 'left'? 'left' : 'right'}}>
                     {props.value>s.min && props.value<=s.max && <ArrowDropUpIcon style={{fontSize: 35}}/>}
                 </Grid>)}
         </Grid>
